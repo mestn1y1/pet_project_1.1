@@ -6,7 +6,6 @@ body {
 img {
   display: block;
   width: 100%;
-  margin-left: -24px;
 }
 
 a {
@@ -17,6 +16,7 @@ ol,
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -114,6 +114,11 @@ nav {
 
 .portfolio-item {
   width: calc((100% - 120px) / 3);
+}
+
+.portfolio-item-img {
+  margin-bottom: 34px;
+  border-radius: 8px;
 }
 
 .portfolio-item-title {
