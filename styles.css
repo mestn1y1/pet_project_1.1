@@ -50,9 +50,9 @@ p {
 }
 
 /** =============header================= */
-/* header {
+header {
   padding: 20px 0;
-} */
+}
 
 nav {
   display: flex;
