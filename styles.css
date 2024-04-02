@@ -116,9 +116,6 @@ nav {
   width: calc((100% - 120px) / 3);
 }
 
-.portfolio-item-img {
-}
-
 .portfolio-item-title {
   font-size: 24px;
   line-height: 1.2;
@@ -134,4 +131,70 @@ nav {
   letter-spacing: 0.13em;
   text-transform: uppercase;
   color: rgba(112, 52, 18, 0.72);
+}
+
+/**=================foooter========================  */
+footer {
+  background-color: #084935;
+  padding-top: 120px;
+  padding-bottom: 26px;
+}
+
+address {
+  font-style: normal;
+}
+
+.footer-descr {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.footer-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.28;
+  color: #fff;
+}
+
+.footer-title span a {
+  font-size: 29px;
+  line-height: 1.32414;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+  margin-bottom: 80px;
+}
+
+.footer-list li {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-item-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.divider {
+  height: 1px;
+  min-width: 1200px;
+  background-color: rgba(255, 255, 255, 0.16);
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
 }
